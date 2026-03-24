@@ -4,7 +4,7 @@
  * 钉钉企业内部机器人插件，使用 Stream 模式连接，支持 AI Card 流式响应。
  * 已迁移到 OpenClaw SDK，支持多账号、安全策略等完整功能。
  * 
- * Last updated: 2026-03-18 17:00:00
+ * Last updated: 2026-03-24
  */
 
 /**
@@ -25,4 +25,6 @@ export default function register(api: OpenClawPluginApi) {
   
   // 注册 Gateway Methods
   registerGatewayMethods(api);
+  
+  console.log('[dingtalk-connector] v0.8.6 已成功加载');
 }
